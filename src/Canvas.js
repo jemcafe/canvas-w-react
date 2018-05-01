@@ -33,7 +33,7 @@ class Canvas extends Component {
         context.beginPath();
     }
 
-    // Without click parameter, nothing is drawn until the mouse moves.
+    // Without click parameter is needed so a point is drawn without dragging the mouse
     putPoint = (e, click) => {
         const { radius } = this.state;
 
