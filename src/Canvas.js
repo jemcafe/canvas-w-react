@@ -81,7 +81,8 @@ class Canvas extends Component {
         return (
             <canvas ref="canvas" onMouseDown={this.engage} 
                                  onMouseMove={(e) => this.putPoint(e, false)} 
-                                 onMouseUp={this.disengage}/>
+                                 onMouseUp={this.disengage}
+                                 onMouseOut={this.disengage}/>
         )
     }
 }
