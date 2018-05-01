@@ -8,6 +8,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Canvas from './components/Canvas';
+import Canvas from './Canvas';
 
 ReactDOM.render(<Canvas />, document.getElementById('root'));
