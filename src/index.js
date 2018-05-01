@@ -1,13 +1,6 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './styles/index.css';
-// import App from './App';
-
-// ReactDOM.render(<App />, document.getElementById('root'));
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Canvas from './Canvas';
+import App from './App';
 
-ReactDOM.render(<Canvas />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
