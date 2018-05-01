@@ -50,6 +50,7 @@ class Canvas extends Component {
         
         if ( this.state.dragging || click ) {
             context.lineWidth = radius * 2;
+            context.lineCap = 'round';
 
             // 
             context.lineTo(x, y);
@@ -77,7 +78,6 @@ class Canvas extends Component {
     }
 
     render () {
-        /* The ref attribute is needed to access the canvas element. With regular javascript document.getElementById('canvas') would be used. */
         return (
             <canvas ref="canvas" onMouseDown={this.engage} 
                                  onMouseMove={(e) => this.putPoint(e, false)} 
